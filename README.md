@@ -8,7 +8,7 @@ This project focuses on building an Extract, Transform, Load (ETL) pipeline that
 The objective of this project is to design and implement an Extract, Transform, Load (ETL) pipeline for streaming platform datasets using Databricks and Azure SQL Server. This pipeline processes raw data, stores it in an Azure SQL database, and facilitates data visualization through Looker Studio.
 
 ### Key Components
-- **Data Sources** - Publicly available streaming platform datasets from Kaggle. Example dataset can be viewed on [kaggle.com](https://www.kaggle.com/datasets/octopusteam/full-apple-tv-dataset)
+- **Data Sources** - Publicly available datasets from [kaggle.com](https://www.kaggle.com/datasets/octopusteam/full-apple-tv-dataset) containing the content of streaming platforms Apple TV, Amazon, HBO, Hulu and Netflix. View [example dataset](https://github.com/datamannetje/databricks-etl-pipeline/blob/main/apple-tv-dataset.csv).
 - **Data Storage** - Azure Blob Storage and SQL Server acts as the central repository for raw and processed data.
 - **Data Processing Platform** - Databricks is utilized for ETL operations, leveraging PySpark to handle data processing.
 - **Data Visualization Tool** - Looker Studio connects to Azure SQL Server to create interactive dashboards and visualizations.
