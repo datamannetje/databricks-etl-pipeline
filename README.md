@@ -24,7 +24,7 @@ The objective of this project is to design and implement an Extract, Transform, 
 - **Data Transformation & Loading** - Data is processed in Databricks using PySpark to handle missing values, remove duplicates, and standardize formats. The transformed data is written back to Azure SQL Server into dedicated tables optimized for queries. 
   - Python code: [dataset-etl-v2.ipynb](https://github.com/datamannetje/streaming-platforms-databricks-project/blob/main/dataset-etl-v2.ipynb)
   - SQL queries: [streaming-platform-database.sql](https://github.com/datamannetje/streaming-platforms-databricks-project/blob/main/streaming-platform-database.sql), [ContentWithGenresView.sql](https://github.com/datamannetje/streaming-platforms-databricks-project/blob/main/ContentWithGenresView.sql), [ContentWithCountriesView.sql](https://github.com/datamannetje/streaming-platforms-databricks-project/blob/main/ContentWithCountriesView.sql)
-- **Visualization** - Looker Studio connects to Azure SQL Server. Dashboard can be viewed here: [GottaWatchThemAll](https://lookerstudio.google.com/reporting/cec21366-93d6-49c1-b44b-13a5a8bf2d55)
+- **Visualization** - Looker Studio connects to Azure SQL Server. Dashboard can be viewed here: [Gotta Watch Em All](https://lookerstudio.google.com/reporting/cec21366-93d6-49c1-b44b-13a5a8bf2d55)
 
 ### Version history
 To show the process I went through I've added the first versions of the code to this repository as well. These versions essentially do the same, but are not effecient enough. Version 2 uses functions to clean up the code and make it more effecient and readable.
